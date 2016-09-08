@@ -1,7 +1,7 @@
 
 // Analog reads multiple times and averages the results
 int analogSmoothRead( int pin , int numReadings , int timeout ){
-  int readings[numReadings]; 
+  int readings[ numReadings ]; 
   int total = 0;
   int average = 0;
   for ( int i = 0 ; i < numReadings ; i++ ){
